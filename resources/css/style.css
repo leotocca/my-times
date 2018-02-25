@@ -52,6 +52,7 @@ nav span {
 
 .column-large {
   width: 630px;
+  margin-top: 25px;
 }
 
 .column-medium {
@@ -94,6 +95,7 @@ nav span {
   margin-top: 30px;
   height: 300px;
   text-align: center;
+  align-items: center;
 }
 
 .text-content {
@@ -128,8 +130,8 @@ nav span {
   width: 630px;
   margin-top: 0;
   text-align: left;
-  font-size: 30px;
-  height: 500px;
+  font-size: 20px;
+  height: 300px;
 }
 
 .lead-story .image-content span {
