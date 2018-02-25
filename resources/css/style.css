@@ -20,7 +20,9 @@ header {
 }
 
 .logo {
+  display: flex;
   flex-grow: 1;
+  align-items: center;
 }
 
 .logo img {
@@ -105,7 +107,6 @@ nav span {
 
 .text-content {
   font-family: Georgia;
-  font-size: 17px;
   color: black;
 }
 
@@ -139,7 +140,7 @@ nav span {
   height: 300px;
 }
 
-.lead-story .image-content span {
+.image-content h1 {
   margin-left: 20px;
 }
 
