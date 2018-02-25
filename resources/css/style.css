@@ -46,23 +46,20 @@ nav span {
   display: flex;
   position: relative;
   justify-content: space-around;
-  top: 80px;
-  border: 1px solid black;
+  top: 100px;
+  margin-bottom: 100px;
 }
 
 .column-large {
   width: 630px;
-  border: 1px solid black;
 }
 
 .column-medium {
   width: 300px;
-  border: 1px solid black;
 }
 
 .column-small {
   width: 240px;
-  border: 1px solid black;
 }
 
 .column-small img {
@@ -70,30 +67,20 @@ nav span {
   height: 240px;
 }
 
-.leadstory {
-  border: 1px solid black;
-}
-
-.image-content {
-  border: 1px solid black;
-}
-
-.narrative {
-  border: 1px solid black;
-}
-
 .stories {
-  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 
 .story {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  width: 300px
 }
 
-.image-content {
-  border: 1px solid black;
+.narrative {
+  margin-top: 20px;
 }
 
 /* titulares */
@@ -102,8 +89,17 @@ nav span {
   display: flex;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 17px;
   color: white;
+  margin-top: 30px;
+  height: 300px;
+  text-align: center;
+}
+
+.text-content {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 /* news bites */
@@ -111,20 +107,33 @@ nav span {
 .news-bites h2{
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 
 .bites {
-  display:block;
+  display: block;
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
 }
+
 
 /* imagenes */
 
-.leadstory.image-content {
+.leadstory .image-content {
   background-image: url("../images/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 30px;
+  height: 500px;
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
 }
 
 .cat-ceo.image-content {
@@ -133,12 +142,8 @@ nav span {
 
 .pop-culture.image-content {
   background-image: url("../images/img-story-3.png");
-  width:300px;
-  height: auto;
 }
 
 .fall-cancelled.image-content {
   background-image: url("../images/img-story-2.png");
-  width:300px;
-  height: auto;
 }
