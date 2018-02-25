@@ -47,7 +47,7 @@ nav span {
   position: relative;
   justify-content: space-around;
   top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .column-large {
@@ -146,4 +146,36 @@ nav span {
 
 .fall-cancelled.image-content {
   background-image: url("../images/img-story-2.png");
+}
+
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: "Verdana", sans-serif;
+  font-size: 12px;
+}
+
+
+.Footer p {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footernav {
+  display: inline-block;
+  padding-left: 25px;
 }
